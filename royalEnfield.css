@@ -1,0 +1,300 @@
+#nav-img {
+  width: 13rem;
+  display: inline-block;
+}
+
+#video video {
+  width: 100%;
+}
+
+#video {
+  position: relative;
+}
+
+#video-des {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: white;
+}
+
+#video-des h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1.7rem;
+  font-weight: 700;
+}
+
+#video-des button {
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 2.5rem;
+}
+
+#cards {
+  background-color: black;
+  color: white;
+}
+
+#cards h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem 0rem;
+}
+
+#bikes {
+  display: flex;
+}
+
+#bikes div {
+  display: inline-block;
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+
+#bikes p {
+  position: absolute;
+  bottom: 0%;
+  padding: 0 1rem;
+}
+
+#bikes img {
+  width: 100%;
+  transition: all 0.6s;
+}
+
+#bikes img:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 0.7rem 0rem;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.header ul .color-red:hover {
+  color: red;
+}
+
+.header ul h1 {
+  font-size: 1.6rem;
+  text-align: bottom;
+}
+
+.image img {
+  display: inline-block;
+  width: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.image-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.image-btn button {
+  text-align: center;
+  border: none;
+}
+
+.image-btn .color-red {
+  background-color: red;
+  padding: 0.4rem 1.7rem;
+  color: white;
+}
+
+.image-btn .color-white {
+  padding: 0.4rem 2rem;
+  background-color: white;
+  color: black;
+}
+
+#auto {
+  display: flex;
+}
+
+#tag {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+#icon-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: whitesmoke;
+  height: 20vh;
+}
+
+#icon-section div:hover p {
+  color: red;
+}
+
+#icon-section div i {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+#icon-section div p {
+  font-size: 1rem;
+}
+
+.icon-section-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  height: 75vh;
+  width: 100%;
+  background-color: #e5e3e3;
+}
+
+#footer-main {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-upper {
+  display: flex;
+  justify-content: end;
+  padding: 2rem 0rem;
+  border-bottom: 0.1px solid #bfbfbf;
+}
+
+#footer-social-links {
+  display: flex;
+}
+
+#social-links-ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.fa-brands {
+  font-size: 1.7rem;
+}
+
+.fa-square-facebook:hover {
+  color: rgb(69, 104, 228);
+}
+
+.fa-twitter:hover {
+  color: rgb(69, 104, 228);
+
+}
+
+.fa-youtube:hover {
+  color: red;
+
+}
+
+.fa-linkedin:hover {
+  color: rgb(69, 104, 228);
+
+}
+
+.fa-square-instagram:hover {
+  color: rgb(116, 18, 18);
+
+}
+
+#footer-middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+  border-bottom: 0.1px solid #bfbfbf;
+}
+
+#footer-middle ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+#footer-middle ul a {
+  color: #333;
+  text-decoration: none;
+}
+
+#footer-middle ul a:hover {
+  color: red;
+}
+
+#footer-middle ul a li {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.footer-ul-heading {
+  font-size: 1.3rem !important;
+  padding-bottom: 1rem;
+  font-weight: 700 !important;
+}
+
+.footer-ul-heading:hover {
+  color: #333 !important;
+}
+
+#footer-lower {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+#footer-lower div {
+  width: 35%;
+}
+
+#footer-lower-left {
+  padding-left: 2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#footer-lower-right {
+  font-size: 0.8rem;
+  font-weight: 500;
+
+}
+
+#footer-lower-right ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+
+#footer-lower-right ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+#footer-lower-right ul a:hover {
+  color: red;
+}
